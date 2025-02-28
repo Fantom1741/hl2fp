@@ -4,6 +4,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    color: #e6e6e6;
     font-family: "JetBrains Mono", serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -11,8 +12,6 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    height: 100vh;
-    color: #e6e6e6;
 }
 header {
     background: rgba(0, 0, 0, 0.7);
@@ -76,13 +75,20 @@ ul li {
         margin: 10px 0;
     }
     section {
-        margin-left: 2%;
-        margin-right: 2%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
-    .npc {
-        max-width: 70%;
-        height: auto;
+    body {
+        background-color: #191919;
+        color: #e6e6e6;
+        font-family: "JetBrains Mono", serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: larger;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
     }
 }
 
@@ -108,14 +114,4 @@ ul li {
 .contact {
     justify-content: space-between;
     align-items: center;
-}
-
-.container {
-    background: url('images/background.png') no-repeat center center fixed;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
 }
