@@ -109,3 +109,13 @@ ul li {
     justify-content: space-between;
     align-items: center;
 }
+
+.container {
+    background: url('images/background.png') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
