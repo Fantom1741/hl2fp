@@ -1,0 +1,102 @@
+body {
+    background: url('images/background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #e6e6e6;
+    font-family: "JetBrains Mono", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+    border-bottom: 2px solid #ff9900;
+}
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+    text-shadow: 1px 1px 5px black;
+}
+nav {
+    margin: 20px 0;
+}
+a {
+    color: #ff9900;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+a:hover {
+    border: 2px solid #ff9900;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+h2 {
+    color: #ff9900;
+    border-bottom: 2px solid #ff9900;
+    padding-bottom: 5px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    display: flex;
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    section {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+.npc {
+    max-width: 50%;
+    height: auto;
+}
+
+.screenshot {
+    max-width: 100%;
+    height: auto;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.date {
+    font-size: small;
+    text-align: right;
+}
+
+.contact {
+    justify-content: space-between;
+    align-items: center;
+}
