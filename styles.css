@@ -78,6 +78,11 @@ ul li {
         margin-left: 2%;
         margin-right: 2%;
     }
+
+    .npc {
+        max-width: 70%;
+        height: auto;
+    }
 }
 
 .npc {
