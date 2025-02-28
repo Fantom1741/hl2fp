@@ -80,6 +80,7 @@ ul li {
     }
 
     body {
+        background: none;
         background-color: #191919;
         color: #e6e6e6;
         font-family: "JetBrains Mono", serif;
