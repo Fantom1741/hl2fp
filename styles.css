@@ -1,5 +1,5 @@
 body {
-    background-color: #55ac4c;
+    background-color: #2A5626;
     background: url('images/background2.png') no-repeat center center fixed;
     background-size: cover;
     background-attachment: fixed;
@@ -81,7 +81,7 @@ ul li {
 
     body {
         background: none;
-        background-color: #55ac4c;
+        background-color: #2A5626;
         color: #e6e6e6;
         font-family: "JetBrains Mono", serif;
         font-optical-sizing: auto;
@@ -116,6 +116,7 @@ ul li {
     justify-content: space-between;
     align-items: center;
 }
+
 
 
 
