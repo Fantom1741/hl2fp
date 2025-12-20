@@ -1,6 +1,6 @@
 body {
     background-color: #55ac4c;
-    background: url('images/background1.png') no-repeat center center fixed;
+    background: url('images/background2.png') no-repeat center center fixed;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -116,6 +116,7 @@ ul li {
     justify-content: space-between;
     align-items: center;
 }
+
 
 
 
